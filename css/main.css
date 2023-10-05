@@ -33,6 +33,18 @@ h2 {
   padding: 25px 0px 10px;
 }
 
+.black {
+  background: #2b2d42;
+}
+
+.pink {
+  background: #f0e0ff;
+}
+
+.blue {
+  background: #92dce5;
+}
+
 img,
 video {
   max-inline-size: 100%;
@@ -40,7 +52,7 @@ video {
   vertical-align: middle;
 }
 
-.row + .row {
+.row {
   margin-top: 16px;
 }
 
@@ -48,6 +60,6 @@ video {
 .row > [class^="col-"] {
   padding-top: 12px;
   padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
+  background-color: rgba(216, 216, 216, 0.6);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
